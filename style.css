@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+
+
+
+.page1{
+    background-color: #1f2937;
+}
+.headerbar{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: row;
+}
+.txtbutt{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: column;
+}
+.block1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: row;
+}
+
+
+
+
+
+.page2{
+    background-color: whitesmoke;
+}
+.pagetitle{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: row;
+    
+}
+.multiboxpannel{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: row;
+}
+.p1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: column;
+}
+.p2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: column;
+}.p3{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: column;
+}.p4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  
+    flex-direction: column;
+}
+[class ^="pannel-"]{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+}
+[class ^="panneltxt-"]{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(43, 226, 58);
+}
+
+
+
+
+.page3{
+    background-color: #e5e7eb;
+}
+
+
+.page4{
+    background-color: whitesmoke;
+}
+.calltoaction{
+    background-color: #3882f6;
+}
+
+.footer{
+    background-color: #1f2937;
+}
