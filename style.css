@@ -26,9 +26,9 @@ body{
   }
   .button2{
     background-color: #3882f6;
-    border: 4px solid white;
+    border: 3px solid white;
     color: white;
-    padding: 12px 16px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -36,6 +36,7 @@ body{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 17px;
+    font-weight: 700;
   }
 
 
@@ -114,14 +115,6 @@ body{
  padding-bottom: 75px;
 }
 
-
-
-h2{
-    font-size: 48px;
-    font-weight: bolder;
-    color: #f9faf8;
-}
-
 h1{
     font-size: 36px;
     font-weight: bolder;
@@ -148,9 +141,10 @@ h1{
 .multiboxpannel{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;  
+    gap: 30px;  
     flex-direction: row;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  place-content: center center;
   justify-content: center;
 }
 .p1{
@@ -164,7 +158,8 @@ h1{
     flex-wrap: wrap;
     gap: 20px;  
     flex-direction: column;
-}.p3{
+}
+.p3{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;  
@@ -174,22 +169,23 @@ h1{
     flex-wrap: wrap;
     gap: 20px;  
     flex-direction: column;
+  
 }
 [class ^="pannel-"]{
-    width: 100px;
-    height: 100px;
-    background-color: blueviolet;
+    width: 130px;
+    height: 130px;
+    border: 4px solid #3882f6;
     border-radius: 10px;
-    margin: 0;  
-    padding: 0;
+    margin: 0px;  
+    padding: 0px;
 }
 [class ^="panneltxt-"]{
     width: 100px;
-    height: 100px;
-    background-color: rgb(43, 226, 58);
-    border-radius: 10px;
-    margin: 0;  
+    height: 60px;
+    margin-top: -15px; 
+  margin-left: 13px;
     padding: 0;
+  text-align: center;
 }
 
 
@@ -201,6 +197,8 @@ h1{
   padding-left: 220px;
   padding-right: 220px;
   flex-direction: row;
+  padding-top:  100px;
+  padding-bottom: 100px;
 }
 
 .p3box{
@@ -210,7 +208,7 @@ h1{
 
 [class ^="quote"]{
   display: flex;
-  font-size: 36px;
+  font-size: 28px;
   font-style: italic;
   font-weight: 100;
   color: #1f2937;
@@ -221,6 +219,7 @@ h1{
   font-weight: 900;
   text-align: right;
   justify-content: right;
+  font-size: 18;
 }
 
 .page4{
@@ -229,15 +228,49 @@ h1{
 }
 .calltoaction{
   display: flex;
+  background-color: #3882f6;
+  border-radius: 10px;
+  padding: 25px;
+  flex-direction: row;
+  
 }
 
-.actiontxt{
-   background-color: #3882f6;
+.actionmaintxt{
+    font-size: 16px;
+    font-weight: bolder;
+    color: #f9faf8;
+    display: flex;
+
 }
+
+.actionsubtxt{
+  font-size: 12px;
+  color: #f9faf8;
+  display: flex;
+
+}
+
+.calltoactiontxtblock{
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-content: center;
+  padding-left: 50px;
+  flex-grow: 1;
+}
+
 .clickhere{
-   background-color: #3882f6;
+   justify-content: center;
+  align-content: center;
+  display: flex;
+  flex-grow: 2;
+  
+  
 }
 
 .footer{
     background-color: #1f2937;
+    padding: 30px;
+    color: whitesmoke;
+  text-align: center;
 }
