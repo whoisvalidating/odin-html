@@ -1,6 +1,5 @@
 *{
     margin: 0px;
-    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -17,12 +16,11 @@ body{
     background-color: #3882f6;
     border: none;
     color: white;
-    padding: 12px 16px;
+    padding: 10px 15px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    margin: 4px 2px;
     cursor: pointer;
     border-radius: 17px;
   }
@@ -43,66 +41,77 @@ body{
 
 .page1{
     background-color: #1f2937;
+    padding-left: 140px;
+    padding-right: 140px;
 }
 .headerbar{
+    padding-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 5px;  
+    gap: 0px;  
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
 }
 
 [class ^="head-logo"]{
     width: 200px;
     height: 25px;
-    flex-grow: 5;
+    flex-grow: 6;
     flex-wrap: wrap;
     text-align: left;
     font-size: 18px;
+    font-weight: 900;
     color: #e5e7eb;
 }
 [class ^="head-link"]{
         width: 0px;
         height: 25px;
-        flex-grow: 1;
+        flex-grow: 2;
         flex-wrap: wrap;
         text-align: center;
         color: #e5e7eb;
+  font-size: 14px;
 }
 .txtbutt{
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;  
+    gap: 0px;  
     flex-direction: column;
-    margin: 20px;
+    align-content: center;
+    margin: 0px;
     text-align: left;
 
 }
 
 .block1{
-    margin: 10px;
+    margin-top: 50px;
     display: flex;
-    gap: 10px;  
+    gap: 0px;  
     flex-direction: row;
 
 }
 
 
 .welcometxt{
-    font-size: 18px;
+    font-size: 48px;
     color: #e5e7eb;
-    margin: 10px;
-    flex-grow: 4;
+    margin: 0px;
+    flex-grow: 1;
     flex-wrap: wrap;
     padding-top: 20px;
 }
+[class ^="welcomesmall"]{
+  font-size: 18px;
+  font-weight: 100;
+  padding-right: 30px;
+}
 
 .bitchin-button{
-    flex-grow: 1;
+  flex-grow: 8;
 }
 
 .dogpic{
-
+ padding-bottom: 75px;
 }
 
 
@@ -119,22 +128,21 @@ h1{
     color: #1f2937;
 }
 
-h3{
-    font-size: 36px;
-    font-style: italic;
-    color: #1f2937;
-}
 
 
 
 .page2{
     background-color: whitesmoke;
+    padding-left: 100px;
+    padding-right: 100px;
 }
-.pagetitle{
+.page2title{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;  
     flex-direction: row;
+    justify-content: center;
+    padding: 20px;
     
 }
 .multiboxpannel{
@@ -142,6 +150,8 @@ h3{
     flex-wrap: wrap;
     gap: 20px;  
     flex-direction: row;
+  padding-bottom: 100px;
+  justify-content: center;
 }
 .p1{
     display: flex;
@@ -186,15 +196,46 @@ h3{
 
 
 .page3{
-    background-color: #e5e7eb;
+  display: flex;
+  background-color: #e5e7eb;
+  padding-left: 220px;
+  padding-right: 220px;
+  flex-direction: row;
 }
 
+.p3box{
+  display: flex;
+  flex-direction: column;
+}
+
+[class ^="quote"]{
+  display: flex;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 100;
+  color: #1f2937;
+  text-align: center;
+}
+[class ^="author"]{
+  display: flex;
+  font-weight: 900;
+  text-align: right;
+  justify-content: right;
+}
 
 .page4{
     background-color: whitesmoke;
+    padding: 75px 200px;
 }
 .calltoaction{
-    background-color: #3882f6;
+  display: flex;
+}
+
+.actiontxt{
+   background-color: #3882f6;
+}
+.clickhere{
+   background-color: #3882f6;
 }
 
 .footer{
